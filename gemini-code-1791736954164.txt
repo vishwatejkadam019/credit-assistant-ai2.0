@@ -1,0 +1,41 @@
+credit-assistant/
+├── backend/
+│   ├── app/
+│   │   ├── __init__.py
+│   │   ├── main.py
+│   │   ├── database.py
+│   │   ├── models.py
+│   │   ├── schemas.py
+│   │   ├── auth.py
+│   │   ├── gemini_service.py
+│   │   └── routers/
+│   │       ├── __init__.py
+│   │       ├── auth_router.py
+│   │       ├── financial_router.py
+│   │       └── ai_router.py
+│   ├── tests/
+│   │   ├── __init__.py
+│   │   └── test_calculations.py
+│   ├── seed.py
+│   ├── requirements.txt
+│   └── .env.example
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   │   └── Navbar.jsx
+│   │   ├── pages/
+│   │   │   ├── Login.jsx
+│   │   │   ├── Register.jsx
+│   │   │   ├── Dashboard.jsx
+│   │   │   ├── FinancialForm.jsx
+│   │   │   └── AIAdvisor.jsx
+│   │   ├── services/
+│   │   │   └── api.js
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   └── index.css
+│   ├── index.html
+│   ├── package.json
+│   └── vite.config.js
+└── README.md
